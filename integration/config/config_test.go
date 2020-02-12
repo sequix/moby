@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/integration/config"
+package config // import "github.com/sequix/moby/integration/config"
 
 import (
 	"bytes"
@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/swarm"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	swarmtypes "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/client"
+	"github.com/sequix/moby/integration/internal/swarm"
+	"github.com/sequix/moby/pkg/stdcopy"
+	"github.com/sequix/moby/testutil/daemon"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

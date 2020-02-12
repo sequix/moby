@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/volume"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/pkg/directory"
+	"github.com/sequix/moby/volume"
 	"github.com/sirupsen/logrus"
 )
 

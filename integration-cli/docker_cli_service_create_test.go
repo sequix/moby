@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration-cli/checker"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/integration-cli/checker"
 	"gotest.tools/assert"
 	"gotest.tools/poll"
 )

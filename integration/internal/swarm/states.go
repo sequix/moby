@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	swarmtypes "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/client"
 	"gotest.tools/poll"
 )
 

@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/sequix/moby/daemon/cluster"
 
 //
 // ## Swarmkit integration
@@ -49,11 +49,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types/network"
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/controllers/plugin"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/sequix/moby/api/types/network"
+	types "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/daemon/cluster/controllers/plugin"
+	executorpkg "github.com/sequix/moby/daemon/cluster/executor"
+	"github.com/sequix/moby/pkg/signal"
 	lncluster "github.com/docker/libnetwork/cluster"
 	swarmapi "github.com/docker/swarmkit/api"
 	swarmnode "github.com/docker/swarmkit/node"

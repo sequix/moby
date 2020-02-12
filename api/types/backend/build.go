@@ -1,10 +1,10 @@
-package backend // import "github.com/docker/docker/api/types/backend"
+package backend // import "github.com/sequix/moby/api/types/backend"
 
 import (
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/pkg/streamformatter"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

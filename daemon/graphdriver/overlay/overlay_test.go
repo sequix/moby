@@ -1,13 +1,13 @@
 // +build linux
 
-package overlay // import "github.com/docker/docker/daemon/graphdriver/overlay"
+package overlay // import "github.com/sequix/moby/daemon/graphdriver/overlay"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/daemon/graphdriver/graphtest"
+	"github.com/sequix/moby/pkg/archive"
 )
 
 func init() {

@@ -1,12 +1,12 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"net/http"
 	"path"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/errdefs"
 )
 
 // Ping pings the server and returns the value of the "Docker-Experimental",

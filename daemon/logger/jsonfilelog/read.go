@@ -1,15 +1,15 @@
-package jsonfilelog // import "github.com/docker/docker/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/sequix/moby/daemon/logger/jsonfilelog"
 
 import (
 	"context"
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/jsonfilelog/jsonlog"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/pkg/tailfile"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/daemon/logger"
+	"github.com/sequix/moby/daemon/logger/jsonfilelog/jsonlog"
+	"github.com/sequix/moby/daemon/logger/loggerutils"
+	"github.com/sequix/moby/pkg/tailfile"
 	"github.com/sirupsen/logrus"
 )
 

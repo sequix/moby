@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fixtures/plugin"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/testutil/daemon"
+	"github.com/sequix/moby/testutil/fixtures/plugin"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

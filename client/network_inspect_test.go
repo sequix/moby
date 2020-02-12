@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"bytes"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/errdefs"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

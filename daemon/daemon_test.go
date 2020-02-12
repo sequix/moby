@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"io/ioutil"
@@ -7,13 +7,13 @@ import (
 	"runtime"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	_ "github.com/docker/docker/pkg/discovery/memory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/truncindex"
-	volumesservice "github.com/docker/docker/volume/service"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/errdefs"
+	_ "github.com/sequix/moby/pkg/discovery/memory"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/truncindex"
+	volumesservice "github.com/sequix/moby/volume/service"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/libnetwork"
 	"github.com/pkg/errors"

@@ -7,15 +7,15 @@
 // read-only and writable layers. The exported
 // tar data for a read-only layer should match
 // the tar used to create the layer.
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sequix/moby/layer"
 
 import (
 	"errors"
 	"io"
 
-	"github.com/docker/distribution"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sequix/distribution"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

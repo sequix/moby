@@ -1,9 +1,9 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sequix/moby/container"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sequix/moby/api/types"
 	"github.com/sirupsen/logrus"
 )
 

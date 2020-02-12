@@ -1,9 +1,9 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/sequix/moby/api/types/swarm"
 )
 
 // SwarmUnlock unlocks locked swarm.

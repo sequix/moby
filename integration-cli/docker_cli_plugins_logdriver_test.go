@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/client"
+	"github.com/sequix/moby/client"
 	"gotest.tools/assert"
 )
 

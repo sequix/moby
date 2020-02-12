@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/sequix/moby/daemon/logger/loggerutils"
 
 import (
 	"compress/gzip"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/pkg/filenotify"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/pubsub"
+	"github.com/sequix/moby/daemon/logger"
+	"github.com/sequix/moby/pkg/filenotify"
+	"github.com/sequix/moby/pkg/pools"
+	"github.com/sequix/moby/pkg/pubsub"
 	"github.com/fsnotify/fsnotify"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

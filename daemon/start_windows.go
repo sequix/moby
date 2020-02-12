@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"github.com/Microsoft/hcsshim/cmd/containerd-shim-runhcs-v1/options"
 	"github.com/Microsoft/opengcs/client"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/pkg/system"
 )
 
 func (daemon *Daemon) getLibcontainerdCreateOptions(container *container.Container) (interface{}, error) {

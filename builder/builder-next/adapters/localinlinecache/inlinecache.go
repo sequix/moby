@@ -7,9 +7,9 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/images"
-	distreference "github.com/docker/distribution/reference"
-	imagestore "github.com/docker/docker/image"
-	"github.com/docker/docker/reference"
+	distreference "github.com/sequix/distribution/reference"
+	imagestore "github.com/sequix/moby/image"
+	"github.com/sequix/moby/reference"
 	"github.com/moby/buildkit/cache/remotecache"
 	registryremotecache "github.com/moby/buildkit/cache/remotecache/registry"
 	v1 "github.com/moby/buildkit/cache/remotecache/v1"

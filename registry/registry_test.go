@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sequix/moby/registry"
 
 import (
 	"fmt"
@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/distribution/registry/client/transport"
+	"github.com/sequix/moby/api/types"
+	registrytypes "github.com/sequix/moby/api/types/registry"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

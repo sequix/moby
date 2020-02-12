@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/sequix/moby/image"
 
 import (
 	"encoding/json"
@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/layer"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/layer"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

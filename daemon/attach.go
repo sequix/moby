@@ -1,17 +1,17 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/pkg/term"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/container/stream"
+	"github.com/sequix/moby/daemon/logger"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/pkg/stdcopy"
+	"github.com/sequix/moby/pkg/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

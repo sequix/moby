@@ -1,6 +1,6 @@
 // +build windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"strings"

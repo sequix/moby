@@ -1,11 +1,11 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/idtools"
 )
 
 func (daemon *Daemon) tarCopyOptions(container *container.Container, noOverwriteDirNonDir bool) (*archive.TarOptions, error) {

@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sequix/moby/builder/dockerfile"
 
 import (
 	"bytes"
@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/strslice"
+	"github.com/sequix/moby/builder"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/docker/go-connections/nat"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"

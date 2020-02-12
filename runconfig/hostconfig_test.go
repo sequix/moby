@@ -1,6 +1,6 @@
 // +build !windows
 
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/sequix/moby/runconfig"
 
 import (
 	"bytes"
@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/pkg/sysinfo"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

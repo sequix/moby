@@ -1,4 +1,4 @@
-package git // import "github.com/docker/docker/builder/remotecontext/git"
+package git // import "github.com/sequix/moby/builder/remotecontext/git"
 
 import (
 	"fmt"
@@ -336,7 +336,7 @@ func TestValidGitTransport(t *testing.T) {
 		"http://github.com/docker/docker.git#:dir",
 	}
 	incompleteGitUrls := []string{
-		"github.com/docker/docker",
+		"github.com/sequix/moby",
 	}
 
 	for _, url := range gitUrls {

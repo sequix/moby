@@ -1,11 +1,11 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/sequix/moby/pkg/authorization"
 
 import (
 	"context"
 	"net/http"
 	"sync"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/sequix/moby/pkg/plugingetter"
 	"github.com/sirupsen/logrus"
 )
 

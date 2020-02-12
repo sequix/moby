@@ -1,13 +1,13 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/sequix/moby/daemon/graphdriver"
 
 import (
 	"io"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/chrootarchive"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/ioutils"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,10 +1,10 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sequix/moby/layer"
 
 import (
 	"fmt"
 	"io"
 
-	"github.com/docker/distribution"
+	"github.com/sequix/distribution"
 	digest "github.com/opencontainers/go-digest"
 )
 

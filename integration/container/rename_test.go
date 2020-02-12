@@ -1,16 +1,16 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sequix/moby/integration/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/moby/api/types"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/integration/internal/container"
+	"github.com/sequix/moby/pkg/stringid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

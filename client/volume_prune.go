@@ -1,12 +1,12 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
 )
 
 // VolumesPrune requests the daemon to delete unused data

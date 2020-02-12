@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/names"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/daemon/names"
 )
 
 var (

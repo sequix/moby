@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"errors"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/container"
 )
 
 // checkIfPathIsInAVolume checks if the path is in a volume. If it is, it

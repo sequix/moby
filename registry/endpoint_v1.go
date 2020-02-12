@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sequix/moby/registry"
 
 import (
 	"crypto/tls"
@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/distribution/registry/client/transport"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/sequix/distribution/registry/client/transport"
+	registrytypes "github.com/sequix/moby/api/types/registry"
 	"github.com/sirupsen/logrus"
 )
 

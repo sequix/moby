@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/sequix/moby/daemon/logger"
 
 import (
 	"encoding/binary"
@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
+	"github.com/sequix/moby/api/types/plugins/logdriver"
 	protoio "github.com/gogo/protobuf/io"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

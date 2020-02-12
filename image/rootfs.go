@@ -1,9 +1,9 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/sequix/moby/image"
 
 import (
 	"runtime"
 
-	"github.com/docker/docker/layer"
+	"github.com/sequix/moby/layer"
 	"github.com/sirupsen/logrus"
 )
 

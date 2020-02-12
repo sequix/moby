@@ -1,4 +1,4 @@
-package urlutil // import "github.com/docker/docker/pkg/urlutil"
+package urlutil // import "github.com/sequix/moby/pkg/urlutil"
 
 import "testing"
 
@@ -13,7 +13,7 @@ var (
 		"http://github.com/docker/docker.git#:dir",
 	}
 	incompleteGitUrls = []string{
-		"github.com/docker/docker",
+		"github.com/sequix/moby",
 	}
 	invalidGitUrls = []string{
 		"http://github.com/docker/docker.git:#branch",

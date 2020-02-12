@@ -1,10 +1,10 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sequix/moby/plugin"
 
 import (
 	"fmt"
 	"reflect"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sequix/moby/api/types"
 )
 
 // Event is emitted for actions performed on the plugin manager

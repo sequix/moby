@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
 	"fmt"
 	"sync/atomic"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
 )
 
 // SystemDiskUsage returns information about the daemon data disk usage

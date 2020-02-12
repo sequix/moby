@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
 )
 
 // ImageCreate creates a new image based in the parent options.

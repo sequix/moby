@@ -1,4 +1,4 @@
-package jsonmessage // import "github.com/docker/docker/pkg/jsonmessage"
+package jsonmessage // import "github.com/sequix/moby/pkg/jsonmessage"
 
 import (
 	"encoding/json"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/term"
+	"github.com/sequix/moby/pkg/term"
 	units "github.com/docker/go-units"
 	"github.com/morikuni/aec"
 )

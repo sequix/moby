@@ -1,10 +1,10 @@
-package swarm // import "github.com/docker/docker/api/types/swarm"
+package swarm // import "github.com/sequix/moby/api/types/swarm"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/mount"
 )
 
 // DNSConfig specifies DNS related configurations in resolver configuration file (resolv.conf)

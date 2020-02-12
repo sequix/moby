@@ -1,6 +1,6 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"fmt"
@@ -9,11 +9,11 @@ import (
 	"strconv"
 	"strings"
 
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/mount"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	mounttypes "github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/pkg/fileutils"
+	"github.com/sequix/moby/pkg/mount"
+	volumemounts "github.com/sequix/moby/volume/mounts"
 )
 
 // setupMounts iterates through each of the mount points for a container and

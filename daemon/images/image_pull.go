@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sequix/moby/daemon/images"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"strings"
 	"time"
 
-	dist "github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/distribution"
-	progressutils "github.com/docker/docker/distribution/utils"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/registry"
+	dist "github.com/sequix/distribution"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/distribution"
+	progressutils "github.com/sequix/moby/distribution/utils"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/pkg/progress"
+	"github.com/sequix/moby/registry"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )

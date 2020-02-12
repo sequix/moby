@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
+	"github.com/sequix/moby/api/types/container"
+	libcontainerdtypes "github.com/sequix/moby/libcontainerd/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,13 +1,13 @@
 // +build !windows
 
-package network // import "github.com/docker/docker/daemon/network"
+package network // import "github.com/sequix/moby/daemon/network"
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
 )
 
 func TestFilterNetworks(t *testing.T) {

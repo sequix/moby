@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"bytes"
@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/errdefs"
 )
 
 func TestContainerTopError(t *testing.T) {

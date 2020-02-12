@@ -1,4 +1,4 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/sequix/moby/pkg/chrootarchive"
 
 import (
 	"bytes"
@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/reexec"
+	"github.com/sequix/moby/pkg/system"
 	"gotest.tools/skip"
 )
 

@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/sequix/moby/daemon/logger"
 
 import (
 	"io"
@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/sequix/moby/api/types/plugins/logdriver"
+	"github.com/sequix/moby/pkg/plugingetter"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

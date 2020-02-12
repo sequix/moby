@@ -1,6 +1,6 @@
 // +build linux
 
-package apparmor // import "github.com/docker/docker/profiles/apparmor"
+package apparmor // import "github.com/sequix/moby/profiles/apparmor"
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/docker/docker/pkg/aaparser"
+	"github.com/sequix/moby/pkg/aaparser"
 )
 
 var (

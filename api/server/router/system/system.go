@@ -1,8 +1,8 @@
-package system // import "github.com/docker/docker/api/server/router/system"
+package system // import "github.com/sequix/moby/api/server/router/system"
 
 import (
-	"github.com/docker/docker/api/server/router"
-	buildkit "github.com/docker/docker/builder/builder-next"
+	"github.com/sequix/moby/api/server/router"
+	buildkit "github.com/sequix/moby/builder/builder-next"
 )
 
 // systemRouter provides information about the Docker system overall.

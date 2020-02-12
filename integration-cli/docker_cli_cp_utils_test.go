@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sequix/moby/pkg/archive"
 	"gotest.tools/assert"
 )
 

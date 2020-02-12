@@ -1,13 +1,13 @@
 // +build !windows
 
-package ipvlan // import "github.com/docker/docker/integration/network/ipvlan"
+package ipvlan // import "github.com/sequix/moby/integration/network/ipvlan"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/sequix/moby/testutil/environment"
 )
 
 var testEnv *environment.Execution

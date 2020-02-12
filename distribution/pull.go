@@ -1,15 +1,15 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/pkg/progress"
-	refstore "github.com/docker/docker/reference"
-	"github.com/docker/docker/registry"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api"
+	"github.com/sequix/moby/distribution/metadata"
+	"github.com/sequix/moby/pkg/progress"
+	refstore "github.com/sequix/moby/reference"
+	"github.com/sequix/moby/registry"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

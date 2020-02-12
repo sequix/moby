@@ -1,10 +1,10 @@
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/sequix/moby/container"
+	volumemounts "github.com/sequix/moby/volume/mounts"
 )
 
 // checkIfPathIsInAVolume checks if the path is in a volume. If it is, it

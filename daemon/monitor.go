@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/restartmanager"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/container"
+	libcontainerdtypes "github.com/sequix/moby/libcontainerd/types"
+	"github.com/sequix/moby/restartmanager"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

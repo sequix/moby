@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/daemon/exec"
 	"gotest.tools/assert"
 )
 

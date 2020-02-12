@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/sequix/moby/integration/system"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/sequix/moby/api/types/registry"
+	"github.com/sequix/moby/testutil/daemon"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

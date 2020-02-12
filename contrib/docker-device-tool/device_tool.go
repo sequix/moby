@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/daemon/graphdriver/devmapper"
-	"github.com/docker/docker/pkg/devicemapper"
+	"github.com/sequix/moby/daemon/graphdriver/devmapper"
+	"github.com/sequix/moby/pkg/devicemapper"
 	"github.com/sirupsen/logrus"
 )
 

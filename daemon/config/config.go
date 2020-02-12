@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/sequix/moby/daemon/config"
 
 import (
 	"bytes"
@@ -12,11 +12,11 @@ import (
 	"strings"
 	"sync"
 
-	daemondiscovery "github.com/docker/docker/daemon/discovery"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/discovery"
-	"github.com/docker/docker/registry"
+	daemondiscovery "github.com/sequix/moby/daemon/discovery"
+	"github.com/sequix/moby/opts"
+	"github.com/sequix/moby/pkg/authorization"
+	"github.com/sequix/moby/pkg/discovery"
+	"github.com/sequix/moby/registry"
 	"github.com/imdario/mergo"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

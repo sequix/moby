@@ -1,13 +1,13 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sequix/moby/builder/dockerfile"
 
 import (
 	"os"
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/sequix/moby/builder/remotecontext"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/reexec"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

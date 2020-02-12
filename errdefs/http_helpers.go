@@ -1,11 +1,11 @@
-package errdefs // import "github.com/docker/docker/errdefs"
+package errdefs // import "github.com/sequix/moby/errdefs"
 
 import (
 	"fmt"
 	"net/http"
 
 	containerderrors "github.com/containerd/containerd/errdefs"
-	"github.com/docker/distribution/registry/api/errcode"
+	"github.com/sequix/distribution/registry/api/errcode"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
+	containertypes "github.com/sequix/moby/api/types/container"
 	units "github.com/docker/go-units"
 )
 

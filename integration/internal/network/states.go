@@ -3,8 +3,8 @@ package network
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/client"
 	"gotest.tools/poll"
 )
 

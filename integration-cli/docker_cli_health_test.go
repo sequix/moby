@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration-cli/cli/build"
 	"gotest.tools/assert"
 )
 

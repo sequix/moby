@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 
 	"github.com/Microsoft/hcsshim/osversion"
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest/manifestlist"
-	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/manifest/manifestlist"
+	"github.com/sequix/distribution/manifest/schema2"
+	"github.com/sequix/distribution/registry/client/transport"
+	"github.com/sequix/moby/pkg/system"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"
 )

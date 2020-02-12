@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/daemon/images"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/image"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

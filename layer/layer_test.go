@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sequix/moby/layer"
 
 import (
 	"bytes"
@@ -11,12 +11,12 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/vfs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/daemon/graphdriver/vfs"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/stringid"
 	digest "github.com/opencontainers/go-digest"
 )
 

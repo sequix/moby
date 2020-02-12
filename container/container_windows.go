@@ -1,14 +1,14 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sequix/moby/container"
 
 import (
 	"fmt"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/api/types"
+	containertypes "github.com/sequix/moby/api/types/container"
+	swarmtypes "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/pkg/system"
 )
 
 const (

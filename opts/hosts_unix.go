@@ -1,6 +1,6 @@
 // +build !windows
 
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/sequix/moby/opts"
 
 import "fmt"
 

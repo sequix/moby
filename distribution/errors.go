@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"fmt"
@@ -6,14 +6,14 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/api/errcode"
-	v2 "github.com/docker/distribution/registry/api/v2"
-	"github.com/docker/distribution/registry/client"
-	"github.com/docker/distribution/registry/client/auth"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/distribution/registry/api/errcode"
+	v2 "github.com/sequix/distribution/registry/api/v2"
+	"github.com/sequix/distribution/registry/client"
+	"github.com/sequix/distribution/registry/client/auth"
+	"github.com/sequix/moby/distribution/xfer"
+	"github.com/sequix/moby/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

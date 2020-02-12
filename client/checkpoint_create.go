@@ -1,9 +1,9 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
+	"github.com/sequix/moby/api/types"
 )
 
 // CheckpointCreate creates a checkpoint from the given container with the given name

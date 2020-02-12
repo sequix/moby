@@ -1,6 +1,6 @@
 //+build windows
 
-package windows // import "github.com/docker/docker/daemon/graphdriver/windows"
+package windows // import "github.com/sequix/moby/daemon/graphdriver/windows"
 
 import (
 	"bufio"
@@ -25,13 +25,13 @@ import (
 	"github.com/Microsoft/go-winio/vhd"
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/hcsshim/osversion"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/longpath"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/longpath"
+	"github.com/sequix/moby/pkg/reexec"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

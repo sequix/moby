@@ -1,11 +1,11 @@
-package session // import "github.com/docker/docker/integration/session"
+package session // import "github.com/sequix/moby/integration/session"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/api/types/versions"
-	req "github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/api/types/versions"
+	req "github.com/sequix/moby/testutil/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

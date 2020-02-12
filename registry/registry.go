@@ -1,5 +1,5 @@
 // Package registry contains client primitives to interact with a remote Docker registry.
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sequix/moby/registry"
 
 import (
 	"crypto/tls"
@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/rootless"
+	"github.com/sequix/distribution/registry/client/transport"
+	"github.com/sequix/moby/pkg/homedir"
+	"github.com/sequix/moby/rootless"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/sirupsen/logrus"
 )

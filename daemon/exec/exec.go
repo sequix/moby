@@ -1,4 +1,4 @@
-package exec // import "github.com/docker/docker/daemon/exec"
+package exec // import "github.com/sequix/moby/daemon/exec"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/moby/container/stream"
+	"github.com/sequix/moby/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 

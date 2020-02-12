@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"context"
@@ -7,15 +7,15 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/client"
-	"github.com/docker/distribution/registry/client/auth"
-	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/registry"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/manifest/schema2"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/distribution/registry/client"
+	"github.com/sequix/distribution/registry/client/auth"
+	"github.com/sequix/distribution/registry/client/transport"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/dockerversion"
+	"github.com/sequix/moby/registry"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

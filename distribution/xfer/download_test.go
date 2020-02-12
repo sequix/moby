@@ -1,4 +1,4 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/sequix/moby/distribution/xfer"
 
 import (
 	"bytes"
@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/sequix/distribution"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/progress"
 	digest "github.com/opencontainers/go-digest"
 	"gotest.tools/assert"
 )

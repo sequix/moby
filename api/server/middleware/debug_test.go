@@ -1,4 +1,4 @@
-package middleware // import "github.com/docker/docker/api/server/middleware"
+package middleware // import "github.com/sequix/moby/api/server/middleware"
 
 import (
 	"testing"

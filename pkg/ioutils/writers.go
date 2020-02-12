@@ -1,4 +1,4 @@
-package ioutils // import "github.com/docker/docker/pkg/ioutils"
+package ioutils // import "github.com/sequix/moby/pkg/ioutils"
 
 import "io"
 

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/testutil/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

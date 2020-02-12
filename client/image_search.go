@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/api/types/registry"
+	"github.com/sequix/moby/errdefs"
 )
 
 // ImageSearch makes the docker host to search by a term in a remote registry.

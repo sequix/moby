@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sequix/moby/plugin"
 
 import (
 	"context"
@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/sequix/moby/distribution/xfer"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/chrootarchive"
+	"github.com/sequix/moby/pkg/progress"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

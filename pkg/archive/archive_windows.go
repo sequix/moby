@@ -1,12 +1,12 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sequix/moby/pkg/archive"
 
 import (
 	"archive/tar"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/longpath"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/longpath"
 )
 
 // fixVolumePathPrefix does platform specific processing to ensure that if

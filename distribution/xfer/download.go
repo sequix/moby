@@ -1,4 +1,4 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/sequix/moby/distribution/xfer"
 
 import (
 	"context"
@@ -8,13 +8,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/distribution"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/progress"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

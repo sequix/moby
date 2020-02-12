@@ -1,9 +1,9 @@
-package discovery // import "github.com/docker/docker/pkg/discovery"
+package discovery // import "github.com/sequix/moby/pkg/discovery"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/internal/test/suite"
+	"github.com/sequix/moby/internal/test/suite"
 	"gotest.tools/assert"
 )
 

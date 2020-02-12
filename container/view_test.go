@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sequix/moby/container"
 
 import (
 	"io/ioutil"
@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
+	"github.com/sequix/moby/api/types"
+	containertypes "github.com/sequix/moby/api/types/container"
 	"github.com/google/uuid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

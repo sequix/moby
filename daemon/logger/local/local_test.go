@@ -16,9 +16,9 @@ import (
 
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/api/types/plugins/logdriver"
+	"github.com/sequix/moby/daemon/logger"
 	protoio "github.com/gogo/protobuf/io"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

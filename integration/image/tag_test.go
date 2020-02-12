@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/sequix/moby/integration/image"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/testutil"
+	"github.com/sequix/moby/testutil"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

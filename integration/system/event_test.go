@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/sequix/moby/integration/system"
 
 import (
 	"context"
@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/request"
-	req "github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/api/types/strslice"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/integration/internal/container"
+	"github.com/sequix/moby/pkg/jsonmessage"
+	"github.com/sequix/moby/testutil/request"
+	req "github.com/sequix/moby/testutil/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

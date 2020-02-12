@@ -1,15 +1,15 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/sequix/moby/daemon/graphdriver"
 
 import (
 	"errors"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/plugingetter"
+	"github.com/sequix/moby/pkg/plugins"
 )
 
 type graphDriverProxy struct {

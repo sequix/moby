@@ -1,13 +1,13 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/api/types/versions"
 )
 
 type configWrapper struct {

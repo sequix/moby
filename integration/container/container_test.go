@@ -1,10 +1,10 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sequix/moby/integration/container"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/testutil/request"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

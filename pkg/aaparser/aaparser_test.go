@@ -1,4 +1,4 @@
-package aaparser // import "github.com/docker/docker/pkg/aaparser"
+package aaparser // import "github.com/sequix/moby/pkg/aaparser"
 
 import (
 	"testing"

@@ -1,4 +1,4 @@
-package filters // import "github.com/docker/docker/api/types/filters"
+package filters // import "github.com/sequix/moby/api/types/filters"
 
 import (
 	"errors"

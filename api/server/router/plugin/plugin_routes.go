@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/api/server/router/plugin"
+package plugin // import "github.com/sequix/moby/api/server/router/plugin"
 
 import (
 	"context"
@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/server/httputils"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/streamformatter"
 	"github.com/pkg/errors"
 )
 

@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/container"
+	"github.com/sequix/moby/container"
 	"github.com/sirupsen/logrus"
 )
 

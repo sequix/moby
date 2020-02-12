@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/sequix/moby/volume/mounts"
 
 import (
 	"fmt"
@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"syscall"
 
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	mounttypes "github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/stringid"
+	"github.com/sequix/moby/volume"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
 )

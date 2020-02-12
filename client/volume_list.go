@@ -1,12 +1,12 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 	"net/url"
 
-	"github.com/docker/docker/api/types/filters"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/sequix/moby/api/types/filters"
+	volumetypes "github.com/sequix/moby/api/types/volume"
 )
 
 // VolumeList returns the volumes configured in the docker host.

@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sequix/moby/layer"
 
 import (
 	"errors"
@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/docker/distribution"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/distribution"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/locker"
+	"github.com/sequix/moby/pkg/plugingetter"
+	"github.com/sequix/moby/pkg/stringid"
+	"github.com/sequix/moby/pkg/system"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 	"github.com/vbatts/tar-split/tar/asm"

@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/sequix/moby/integration/build"
 
 import (
 	"archive/tar"
@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/pkg/jsonmessage"
+	"github.com/sequix/moby/testutil/fakecontext"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/skip"

@@ -1,6 +1,6 @@
 // +build !windows
 
-package system // import "github.com/docker/docker/pkg/system"
+package system // import "github.com/sequix/moby/pkg/system"
 
 import (
 	"time"

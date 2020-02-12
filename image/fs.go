@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/sequix/moby/image"
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sequix/moby/pkg/ioutils"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

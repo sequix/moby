@@ -1,6 +1,6 @@
 // +build linux
 
-package loopback // import "github.com/docker/docker/pkg/loopback"
+package loopback // import "github.com/sequix/moby/pkg/loopback"
 
 import "golang.org/x/sys/unix"
 

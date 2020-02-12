@@ -1,7 +1,7 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/sequix/moby/daemon/graphdriver"
 
 import (
-	"github.com/docker/docker/pkg/mount"
+	"github.com/sequix/moby/pkg/mount"
 	"golang.org/x/sys/unix"
 )
 

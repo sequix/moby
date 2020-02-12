@@ -1,6 +1,6 @@
 // +build linux freebsd
 
-package graphtest // import "github.com/docker/docker/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/sequix/moby/daemon/graphdriver/graphtest"
 
 import (
 	"bytes"
@@ -12,9 +12,9 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/quota"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/daemon/graphdriver/quota"
+	"github.com/sequix/moby/pkg/stringid"
 	units "github.com/docker/go-units"
 	"golang.org/x/sys/unix"
 	"gotest.tools/assert"

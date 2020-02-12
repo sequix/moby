@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/testutil/fixtures/plugin"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration-cli/cli"
+	"github.com/sequix/moby/integration-cli/daemon"
+	"github.com/sequix/moby/testutil/fixtures/plugin"
 	"gotest.tools/assert"
 )
 

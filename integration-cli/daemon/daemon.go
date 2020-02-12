@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/integration-cli/daemon"
+package daemon // import "github.com/sequix/moby/integration-cli/daemon"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/sequix/moby/testutil/daemon"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"

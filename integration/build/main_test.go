@@ -1,11 +1,11 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/sequix/moby/integration/build"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/sequix/moby/testutil/environment"
 )
 
 var testEnv *environment.Execution

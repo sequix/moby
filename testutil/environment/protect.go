@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	dclient "github.com/docker/docker/client"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	dclient "github.com/sequix/moby/client"
 	"gotest.tools/assert"
 )
 

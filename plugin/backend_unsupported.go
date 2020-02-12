@@ -1,6 +1,6 @@
 // +build !linux
 
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/sequix/moby/plugin"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
 )
 
 var errNotSupported = errors.New("plugins are not supported on this platform")

@@ -1,4 +1,4 @@
-package tarexport // import "github.com/docker/docker/image/tarexport"
+package tarexport // import "github.com/sequix/moby/image/tarexport"
 
 import (
 	"encoding/json"
@@ -11,13 +11,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
-	v1 "github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/image"
+	v1 "github.com/sequix/moby/image/v1"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/system"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

@@ -1,6 +1,6 @@
 // +build linux,seccomp
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
@@ -8,8 +8,8 @@ import (
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/profiles/seccomp"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/profiles/seccomp"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 )

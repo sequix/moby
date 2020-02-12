@@ -1,15 +1,15 @@
-package container // import "github.com/docker/docker/api/server/router/container"
+package container // import "github.com/sequix/moby/api/server/router/container"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/filters"
+	containerpkg "github.com/sequix/moby/container"
+	"github.com/sequix/moby/pkg/archive"
 )
 
 // execBackend includes functions to implement to provide exec functionality.

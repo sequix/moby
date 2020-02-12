@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/sequix/moby/api/types"
+	swarmtypes "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/integration/internal/swarm"
 	"gotest.tools/assert"
 	"gotest.tools/poll"
 	"gotest.tools/skip"

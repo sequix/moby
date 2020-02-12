@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/pkg/stringid"
-	testdaemon "github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/volume"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration-cli/daemon"
+	"github.com/sequix/moby/pkg/stringid"
+	testdaemon "github.com/sequix/moby/testutil/daemon"
+	"github.com/sequix/moby/volume"
 	"gotest.tools/assert"
 )
 

@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/client"
+	"github.com/sequix/moby/integration-cli/cli/build"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"
 )

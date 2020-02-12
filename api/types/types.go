@@ -1,4 +1,4 @@
-package types // import "github.com/docker/docker/api/types"
+package types // import "github.com/sequix/moby/api/types"
 
 import (
 	"errors"
@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/api/types/registry"
+	"github.com/sequix/moby/api/types/swarm"
 	"github.com/docker/go-connections/nat"
 )
 

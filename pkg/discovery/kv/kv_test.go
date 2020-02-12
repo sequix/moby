@@ -1,4 +1,4 @@
-package kv // import "github.com/docker/docker/pkg/discovery/kv"
+package kv // import "github.com/sequix/moby/pkg/discovery/kv"
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/internal/test/suite"
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/sequix/moby/internal/test/suite"
+	"github.com/sequix/moby/pkg/discovery"
 	"github.com/docker/libkv"
 	"github.com/docker/libkv/store"
 	"gotest.tools/assert"

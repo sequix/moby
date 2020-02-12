@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/testutil/request"
 	"gotest.tools/assert"
 )
 

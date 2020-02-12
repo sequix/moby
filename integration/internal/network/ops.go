@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/network"
 )
 
 // WithDriver sets the driver of the network

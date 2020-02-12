@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"encoding/json"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/distribution/manifest/schema1"
-	"github.com/docker/distribution/reference"
+	"github.com/sequix/distribution/manifest/schema1"
+	"github.com/sequix/distribution/reference"
 	digest "github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/assert"

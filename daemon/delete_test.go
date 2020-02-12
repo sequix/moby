@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"fmt"
@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
+	"github.com/sequix/moby/api/types"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/container"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

@@ -1,13 +1,13 @@
 // +build !windows
 
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"context"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest/manifestlist"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/manifest/manifestlist"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"
 )

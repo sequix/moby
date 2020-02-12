@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"encoding/json"
@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/docker/libtrust"
 )
 

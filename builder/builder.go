@@ -2,19 +2,19 @@
 //
 // Historically, only server-side Dockerfile interpreters existed.
 // This package allows for other implementations of Docker builders.
-package builder // import "github.com/docker/docker/builder"
+package builder // import "github.com/sequix/moby/builder"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/api/types/container"
+	containerpkg "github.com/sequix/moby/container"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/containerfs"
 )
 
 const (

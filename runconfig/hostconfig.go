@@ -1,11 +1,11 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/sequix/moby/runconfig"
 
 import (
 	"encoding/json"
 	"io"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/sequix/moby/api/types/container"
 )
 
 // DecodeHostConfig creates a HostConfig based on the specified Reader.

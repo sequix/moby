@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/sequix/moby/registry"
 
 import (
 	"net/url"
 
-	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/distribution/registry/api/errcode"
+	"github.com/sequix/moby/errdefs"
 )
 
 type notFoundError string

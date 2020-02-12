@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"encoding/json"
 
-	"github.com/docker/docker/api/types"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/sequix/moby/api/types"
+	volumetypes "github.com/sequix/moby/api/types/volume"
 )
 
 // VolumeCreate creates a volume in the docker host.

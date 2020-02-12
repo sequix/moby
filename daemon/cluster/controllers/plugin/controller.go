@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/daemon/cluster/controllers/plugin"
+package plugin // import "github.com/sequix/moby/daemon/cluster/controllers/plugin"
 
 import (
 	"context"
@@ -6,12 +6,12 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm/runtime"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/plugin"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/sequix/distribution/reference"
+	enginetypes "github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/swarm/runtime"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/plugin"
+	v2 "github.com/sequix/moby/plugin/v2"
 	"github.com/docker/swarmkit/api"
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"

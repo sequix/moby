@@ -1,11 +1,11 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/sequix/moby/api/server/router/distribution"
 
 import (
 	"context"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/sequix/distribution"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
 )
 
 // Backend is all the methods that need to be implemented

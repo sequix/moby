@@ -1,16 +1,16 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/sequix/moby/api/server/backend/build"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	buildkit "github.com/docker/docker/builder/builder-next"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/builder"
+	buildkit "github.com/sequix/moby/builder/builder-next"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/pkg/stringid"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

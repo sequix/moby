@@ -1,6 +1,6 @@
 // +build !windows
 
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sequix/moby/pkg/archive"
 
 import (
 	"path/filepath"

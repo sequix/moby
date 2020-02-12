@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/sequix/moby/reference"
 
 type notFoundError string
 

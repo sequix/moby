@@ -1,12 +1,12 @@
-package network // import "github.com/docker/docker/integration/network"
+package network // import "github.com/sequix/moby/integration/network"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/network"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration/internal/network"
+	"github.com/sequix/moby/integration/internal/swarm"
 	"gotest.tools/assert"
 	"gotest.tools/poll"
 	"gotest.tools/skip"

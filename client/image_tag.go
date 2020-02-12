@@ -1,10 +1,10 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
 	"net/url"
 
-	"github.com/docker/distribution/reference"
+	"github.com/sequix/distribution/reference"
 	"github.com/pkg/errors"
 )
 

@@ -1,11 +1,11 @@
-package nodes // import "github.com/docker/docker/pkg/discovery/nodes"
+package nodes // import "github.com/sequix/moby/pkg/discovery/nodes"
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/sequix/moby/pkg/discovery"
 )
 
 // Discovery is exported

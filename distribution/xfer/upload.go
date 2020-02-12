@@ -1,13 +1,13 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/sequix/moby/distribution/xfer"
 
 import (
 	"context"
 	"errors"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/sequix/distribution"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/progress"
 	"github.com/sirupsen/logrus"
 )
 

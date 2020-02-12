@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"bytes"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types"
+	volumetypes "github.com/sequix/moby/api/types/volume"
+	"github.com/sequix/moby/errdefs"
 )
 
 func TestVolumeCreateError(t *testing.T) {

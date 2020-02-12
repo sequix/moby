@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/sequix/moby/distribution"
 
 import (
 	"errors"
@@ -6,9 +6,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/distribution/registry/api/errcode"
-	v2 "github.com/docker/distribution/registry/api/v2"
-	"github.com/docker/distribution/registry/client"
+	"github.com/sequix/distribution/registry/api/errcode"
+	v2 "github.com/sequix/distribution/registry/api/v2"
+	"github.com/sequix/distribution/registry/client"
 )
 
 var alwaysContinue = []error{

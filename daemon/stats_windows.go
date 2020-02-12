@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/container"
 )
 
 // Windows network stats are obtained directly through HCS, hence this is a no-op.

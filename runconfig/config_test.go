@@ -1,4 +1,4 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/sequix/moby/runconfig"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
+	"github.com/sequix/moby/api/types/container"
+	networktypes "github.com/sequix/moby/api/types/network"
+	"github.com/sequix/moby/api/types/strslice"
 )
 
 type f struct {

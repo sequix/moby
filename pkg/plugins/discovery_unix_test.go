@@ -1,6 +1,6 @@
 // +build !windows
 
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/sequix/moby/pkg/plugins"
 
 import (
 	"fmt"

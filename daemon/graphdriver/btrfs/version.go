@@ -1,6 +1,6 @@
 // +build linux
 
-package btrfs // import "github.com/docker/docker/daemon/graphdriver/btrfs"
+package btrfs // import "github.com/sequix/moby/daemon/graphdriver/btrfs"
 
 /*
 #include <btrfs/version.h>

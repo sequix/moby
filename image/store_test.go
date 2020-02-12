@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/sequix/moby/image"
 
 import (
 	"fmt"
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/layer"
+	"github.com/sequix/moby/layer"
 	"gotest.tools/assert"
 	"gotest.tools/assert/cmp"
 )

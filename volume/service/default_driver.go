@@ -1,11 +1,11 @@
 // +build linux windows
 
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/sequix/moby/volume/service"
 import (
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/volume"
-	"github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/local"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/volume"
+	"github.com/sequix/moby/volume/drivers"
+	"github.com/sequix/moby/volume/local"
 	"github.com/pkg/errors"
 )
 

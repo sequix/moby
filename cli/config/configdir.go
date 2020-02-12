@@ -1,10 +1,10 @@
-package config // import "github.com/docker/docker/cli/config"
+package config // import "github.com/sequix/moby/cli/config"
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/sequix/moby/pkg/homedir"
 )
 
 var (

@@ -20,7 +20,7 @@ aufs driver directory structure
 
 */
 
-package aufs // import "github.com/docker/docker/daemon/graphdriver/aufs"
+package aufs // import "github.com/sequix/moby/daemon/graphdriver/aufs"
 
 import (
 	"bufio"
@@ -35,15 +35,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/chrootarchive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/directory"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/locker"
+	"github.com/sequix/moby/pkg/mount"
+	"github.com/sequix/moby/pkg/system"
 	rsystem "github.com/opencontainers/runc/libcontainer/system"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

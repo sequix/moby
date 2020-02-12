@@ -11,8 +11,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/integration-cli/cli/build"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"
 )

@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"bytes"
@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/strslice"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/daemon/exec"
 	"github.com/sirupsen/logrus"
 )
 

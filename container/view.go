@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/sequix/moby/container"
 
 import (
 	"errors"
@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/network"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/network"
 	"github.com/docker/go-connections/nat"
 	memdb "github.com/hashicorp/go-memdb"
 	"github.com/sirupsen/logrus"

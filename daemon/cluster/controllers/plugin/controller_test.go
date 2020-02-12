@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/daemon/cluster/controllers/plugin"
+package plugin // import "github.com/sequix/moby/daemon/cluster/controllers/plugin"
 
 import (
 	"context"
@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm/runtime"
-	"github.com/docker/docker/pkg/pubsub"
-	"github.com/docker/docker/plugin"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/sequix/distribution/reference"
+	enginetypes "github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/swarm/runtime"
+	"github.com/sequix/moby/pkg/pubsub"
+	"github.com/sequix/moby/plugin"
+	v2 "github.com/sequix/moby/plugin/v2"
 	"github.com/sirupsen/logrus"
 )
 

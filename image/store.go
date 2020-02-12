@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/sequix/moby/image"
 
 import (
 	"encoding/json"
@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/distribution/digestset"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/distribution/digestset"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/system"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

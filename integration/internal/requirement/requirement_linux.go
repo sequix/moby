@@ -1,10 +1,10 @@
-package requirement // import "github.com/docker/docker/integration/internal/requirement"
+package requirement // import "github.com/sequix/moby/integration/internal/requirement"
 
 import (
 	"os"
 	"strings"
 
-	"github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/sequix/moby/pkg/parsers/kernel"
 	"gotest.tools/icmd"
 )
 

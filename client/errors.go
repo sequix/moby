@@ -1,11 +1,11 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"fmt"
 	"net/http"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/errdefs"
 	"github.com/pkg/errors"
 )
 

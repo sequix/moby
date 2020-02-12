@@ -1,4 +1,4 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sequix/moby/daemon/images"
 
 import (
 	"context"
@@ -6,13 +6,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	timetypes "github.com/docker/docker/api/types/time"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	timetypes "github.com/sequix/moby/api/types/time"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -5,10 +5,10 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/daemon/config"
+	"github.com/sequix/moby/opts"
+	"github.com/sequix/moby/pkg/homedir"
 	"github.com/spf13/pflag"
 )
 

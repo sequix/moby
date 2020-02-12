@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sequix/moby/pkg/archive"
 
 import (
 	"io/ioutil"
@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/pkg/system"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

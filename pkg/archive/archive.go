@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sequix/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -19,11 +19,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/pkg/fileutils"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/pools"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

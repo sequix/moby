@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/sequix/moby/pkg/archive"
 
 import (
 	"archive/tar"
@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/ioutils"
 	rsystem "github.com/opencontainers/runc/libcontainer/system"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

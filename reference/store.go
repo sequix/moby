@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/sequix/moby/reference"
 
 import (
 	"encoding/json"
@@ -8,8 +8,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/pkg/ioutils"
 	digest "github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

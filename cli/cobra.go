@@ -1,9 +1,9 @@
-package cli // import "github.com/docker/docker/cli"
+package cli // import "github.com/sequix/moby/cli"
 
 import (
 	"fmt"
 
-	"github.com/docker/docker/pkg/term"
+	"github.com/sequix/moby/pkg/term"
 	"github.com/spf13/cobra"
 )
 

@@ -1,6 +1,6 @@
 // +build linux freebsd darwin
 
-package directory // import "github.com/docker/docker/pkg/directory"
+package directory // import "github.com/sequix/moby/pkg/directory"
 
 import (
 	"context"

@@ -1,13 +1,13 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sequix/moby/integration/container"
 
 import (
 	"context"
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration/internal/container"
+	"github.com/sequix/moby/pkg/stdcopy"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

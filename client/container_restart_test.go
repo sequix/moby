@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/errdefs"
 )
 
 func TestContainerRestartError(t *testing.T) {

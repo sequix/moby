@@ -1,6 +1,6 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/sequix/moby/layer"
 
-import "github.com/docker/distribution"
+import "github.com/sequix/distribution"
 
 var _ distribution.Describable = &roLayer{}
 

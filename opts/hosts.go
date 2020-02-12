@@ -1,4 +1,4 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/sequix/moby/opts"
 
 import (
 	"fmt"
@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/daemon/network"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/sequix/moby/daemon/network"
+	"github.com/sequix/moby/pkg/homedir"
 )
 
 var (

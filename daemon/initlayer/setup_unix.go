@@ -1,14 +1,14 @@
 // +build linux freebsd
 
-package initlayer // import "github.com/docker/docker/daemon/initlayer"
+package initlayer // import "github.com/sequix/moby/daemon/initlayer"
 
 import (
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/idtools"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/docker/docker/testutil/fakestorage"
+package fakestorage // import "github.com/sequix/moby/testutil/fakestorage"
 
 import (
 	"context"
@@ -12,13 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/environment"
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/request"
+	"github.com/sequix/moby/api/types"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/client"
+	"github.com/sequix/moby/testutil"
+	"github.com/sequix/moby/testutil/environment"
+	"github.com/sequix/moby/testutil/fakecontext"
+	"github.com/sequix/moby/testutil/request"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/assert"
 )

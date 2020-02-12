@@ -1,12 +1,12 @@
 // +build linux
 
-package gelf // import "github.com/docker/docker/daemon/logger/gelf"
+package gelf // import "github.com/sequix/moby/daemon/logger/gelf"
 
 import (
 	"net"
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/sequix/moby/daemon/logger"
 )
 
 // Validate parseAddress

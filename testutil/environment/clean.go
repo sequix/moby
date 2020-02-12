@@ -1,4 +1,4 @@
-package environment // import "github.com/docker/docker/testutil/environment"
+package environment // import "github.com/sequix/moby/testutil/environment"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/client"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/client"
 	"gotest.tools/assert"
 )
 

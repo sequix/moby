@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/integration/internal/container"
+	"github.com/sequix/moby/testutil/daemon"
 
 	"gotest.tools/assert"
 	"gotest.tools/skip"

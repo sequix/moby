@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/pkg/plugingetter"
+	"github.com/sequix/moby/pkg/plugins"
 	metrics "github.com/docker/go-metrics"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

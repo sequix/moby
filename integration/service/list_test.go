@@ -1,15 +1,15 @@
-package service // import "github.com/docker/docker/integration/service"
+package service // import "github.com/sequix/moby/integration/service"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/integration/internal/swarm"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	swarmtypes "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/api/types/versions"
+	"github.com/sequix/moby/integration/internal/swarm"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/poll"

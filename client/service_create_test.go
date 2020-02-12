@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"bytes"
@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types"
+	registrytypes "github.com/sequix/moby/api/types/registry"
+	"github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/errdefs"
 	digest "github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/assert"

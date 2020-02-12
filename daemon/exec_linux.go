@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"context"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
-	"github.com/docker/docker/oci/caps"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/daemon/exec"
+	"github.com/sequix/moby/oci/caps"
 	"github.com/opencontainers/runc/libcontainer/apparmor"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )

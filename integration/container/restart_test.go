@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/sequix/moby/integration/container"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/testutil/daemon"
 	"gotest.tools/assert"
 	"gotest.tools/skip"
 )

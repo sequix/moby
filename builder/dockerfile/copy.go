@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sequix/moby/builder/dockerfile"
 
 import (
 	"archive/tar"
@@ -14,16 +14,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/pkg/urlutil"
+	"github.com/sequix/moby/builder"
+	"github.com/sequix/moby/builder/remotecontext"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/progress"
+	"github.com/sequix/moby/pkg/streamformatter"
+	"github.com/sequix/moby/pkg/system"
+	"github.com/sequix/moby/pkg/urlutil"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

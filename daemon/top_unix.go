@@ -1,6 +1,6 @@
 //+build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"bytes"
@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/errdefs"
 	"github.com/pkg/errors"
 )
 

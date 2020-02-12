@@ -1,12 +1,12 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/sequix/moby/daemon/cluster/convert"
 
 import (
 	"fmt"
 	"strings"
 
-	types "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/swarm/runtime"
-	"github.com/docker/docker/pkg/namesgenerator"
+	types "github.com/sequix/moby/api/types/swarm"
+	"github.com/sequix/moby/api/types/swarm/runtime"
+	"github.com/sequix/moby/pkg/namesgenerator"
 	swarmapi "github.com/docker/swarmkit/api"
 	"github.com/docker/swarmkit/api/genericresource"
 	"github.com/gogo/protobuf/proto"

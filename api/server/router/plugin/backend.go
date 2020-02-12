@@ -1,14 +1,14 @@
-package plugin // import "github.com/docker/docker/api/server/router/plugin"
+package plugin // import "github.com/sequix/moby/api/server/router/plugin"
 
 import (
 	"context"
 	"io"
 	"net/http"
 
-	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/plugin"
+	"github.com/sequix/distribution/reference"
+	enginetypes "github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/filters"
+	"github.com/sequix/moby/plugin"
 )
 
 // Backend for Plugin

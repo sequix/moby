@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/sequix/moby/reference"
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/distribution/reference"
+	"github.com/sequix/distribution/reference"
 	digest "github.com/opencontainers/go-digest"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
+	"github.com/sequix/moby/integration-cli/cli"
 	"gotest.tools/assert"
 	"gotest.tools/icmd"
 )

@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/sequix/moby/client"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/errdefs"
 )
 
 // ImagePull requests the docker host to pull an image from a remote registry.

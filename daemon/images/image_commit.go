@@ -1,14 +1,14 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/sequix/moby/daemon/images"
 
 import (
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/api/types/backend"
+	"github.com/sequix/moby/image"
+	"github.com/sequix/moby/layer"
+	"github.com/sequix/moby/pkg/ioutils"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/pkg/errors"
 )
 

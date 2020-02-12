@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/sequix/moby/builder/remotecontext"
 
 import (
 	"io/ioutil"
@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/sequix/moby/builder"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/reexec"
 	"github.com/pkg/errors"
 	"gotest.tools/skip"
 )

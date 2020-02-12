@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/sequix/moby/api/server/router/distribution"
 
 import (
 	"context"
@@ -7,14 +7,14 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/docker/distribution/manifest/manifestlist"
-	"github.com/docker/distribution/manifest/schema1"
-	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
+	"github.com/sequix/distribution/manifest/manifestlist"
+	"github.com/sequix/distribution/manifest/schema1"
+	"github.com/sequix/distribution/manifest/schema2"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/api/server/httputils"
+	"github.com/sequix/moby/api/types"
+	registrytypes "github.com/sequix/moby/api/types/registry"
+	"github.com/sequix/moby/errdefs"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

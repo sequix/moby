@@ -1,11 +1,11 @@
-package build // import "github.com/docker/docker/api/server/backend/build"
+package build // import "github.com/sequix/moby/api/server/backend/build"
 
 import (
 	"fmt"
 	"io"
 
-	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
+	"github.com/sequix/distribution/reference"
+	"github.com/sequix/moby/image"
 	"github.com/pkg/errors"
 )
 

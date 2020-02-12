@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/registry"
+	"github.com/sequix/moby/testutil/registry"
 	"gotest.tools/assert"
 )
 

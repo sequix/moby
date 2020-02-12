@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/client"
+	"github.com/sequix/moby/api/types"
+	"github.com/sequix/moby/api/types/versions/v1p20"
+	"github.com/sequix/moby/client"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

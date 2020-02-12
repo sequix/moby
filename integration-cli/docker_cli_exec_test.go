@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/sequix/moby/client"
+	"github.com/sequix/moby/integration-cli/cli"
+	"github.com/sequix/moby/integration-cli/cli/build"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/icmd"

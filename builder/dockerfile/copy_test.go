@@ -1,10 +1,10 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/sequix/moby/builder/dockerfile"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sequix/moby/pkg/containerfs"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

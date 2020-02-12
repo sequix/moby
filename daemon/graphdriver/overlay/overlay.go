@@ -1,6 +1,6 @@
 // +build linux
 
-package overlay // import "github.com/docker/docker/daemon/graphdriver/overlay"
+package overlay // import "github.com/sequix/moby/daemon/graphdriver/overlay"
 
 import (
 	"fmt"
@@ -12,17 +12,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/copy"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/fsutils"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/locker"
-	"github.com/docker/docker/pkg/mount"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/pkg/system"
+	"github.com/sequix/moby/daemon/graphdriver"
+	"github.com/sequix/moby/daemon/graphdriver/copy"
+	"github.com/sequix/moby/daemon/graphdriver/overlayutils"
+	"github.com/sequix/moby/pkg/archive"
+	"github.com/sequix/moby/pkg/containerfs"
+	"github.com/sequix/moby/pkg/fsutils"
+	"github.com/sequix/moby/pkg/idtools"
+	"github.com/sequix/moby/pkg/locker"
+	"github.com/sequix/moby/pkg/mount"
+	"github.com/sequix/moby/pkg/parsers"
+	"github.com/sequix/moby/pkg/system"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"

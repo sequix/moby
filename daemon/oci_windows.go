@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/sequix/moby/daemon"
 
 import (
 	"encoding/json"
@@ -9,13 +9,13 @@ import (
 	"strings"
 
 	"github.com/Microsoft/hcsshim/osversion"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/oci/caps"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/pkg/system"
+	containertypes "github.com/sequix/moby/api/types/container"
+	"github.com/sequix/moby/container"
+	"github.com/sequix/moby/errdefs"
+	"github.com/sequix/moby/oci"
+	"github.com/sequix/moby/oci/caps"
+	"github.com/sequix/moby/pkg/sysinfo"
+	"github.com/sequix/moby/pkg/system"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

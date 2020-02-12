@@ -1,13 +1,13 @@
 // +build linux
 
-package aufs // import "github.com/docker/docker/daemon/graphdriver/aufs"
+package aufs // import "github.com/sequix/moby/daemon/graphdriver/aufs"
 
 import (
 	"os/exec"
 	"syscall"
 	"time"
 
-	"github.com/docker/docker/pkg/mount"
+	"github.com/sequix/moby/pkg/mount"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

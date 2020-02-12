@@ -1,10 +1,10 @@
-package nodes // import "github.com/docker/docker/pkg/discovery/nodes"
+package nodes // import "github.com/sequix/moby/pkg/discovery/nodes"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/internal/test/suite"
-	"github.com/docker/docker/pkg/discovery"
+	"github.com/sequix/moby/internal/test/suite"
+	"github.com/sequix/moby/pkg/discovery"
 	"gotest.tools/assert"
 )
 

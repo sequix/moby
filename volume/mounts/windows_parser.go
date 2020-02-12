@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/sequix/moby/volume/mounts"
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/sequix/moby/api/types/mount"
+	"github.com/sequix/moby/pkg/stringid"
 )
 
 type windowsParser struct {

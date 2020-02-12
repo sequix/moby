@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/sequix/moby/builder/remotecontext"
 
 import (
 	"errors"
@@ -8,8 +8,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/sequix/moby/builder"
+	"github.com/sequix/moby/pkg/containerfs"
 )
 
 const (
